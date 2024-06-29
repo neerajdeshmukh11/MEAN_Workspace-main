@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neeraj Deshmukh's Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom styles */
+      .card {
+        @apply p-6 border-2 border-gray-700 rounded-lg shadow-lg;
+      }
+      .profile-img {
+        @apply rounded-full;
+      }
+      .btn {
+        @apply bg-blue-500 text-white rounded-full px-6 py-2 mt-4 hover:bg-blue-600 transition duration-300;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div class="container mx-auto p-8">
+      <!-- Profile Section -->
+      <div class="flex flex-col items-center mb-8">
+        <img
+          class="profile-img w-64 h-64 mb-4 rounded-full"
+          src="https://avatars.githubusercontent.com/u/159466355?v=4"
+          alt="Neeraj Deshmukh" />
+        <h1 class="text-4xl font-bold">Neeraj Deshmukh </h1>
+        <p class="mt-2 text-center max-w-xl">
+          🚀 Student at GHRCEM, Pune. Advanced Python & MERN stack developer.
+         <p class="mt-2">Location: Pune, Maharashtra</p>
+        <a href="https://navjeevan.online" class="btn px-4 py-2 bg-blue-500 rounded-md ">🔗Website</a>
+        <div class="flex mt-4">
+          >
+          <a
+            href="https://www.linkedin.com/in/neeraj-deshmukh-61144725a/"
+            class="text-blue-400 mx-2"
+            >LinkedIn</a
+          >
+          <a
+            href=""
+            class="text-blue-400 mx-2"
+            >Instagram</a
+          >
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card">
+          <h2 class="text-3xl font-bold mb-4">Education</h2>
+          <p class="text-lg">Student at GHRCEM, Pune</p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="card">
+          <h2 class="text-3xl font-bold mb-4">Experience</h2>
+          <p class="text-lg">Advanced Python </p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="card">
+          <h2 class="text-3xl font-bold mb-4">Skills</h2>
+          <ul class="list-disc list-inside">
+            <li>Python</li>
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
